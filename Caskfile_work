@@ -1,0 +1,3 @@
+cask install google-chrome-canary 2> /dev/null
+cask install sequel-pro
+cask install slack
