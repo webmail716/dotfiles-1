@@ -2,23 +2,33 @@
 
 ## instructions
 Go to homebrew site and install homebrew
+
 brew install git
 
 cd ~
+
 mkdir dev
+
 cd dev
+
 git clone git@github.com:webmail716/dotfiles-1.git
+
 cd dotfiles-1
 
 ./homebrew/install.sh
+
 brew bundle Brewfile
 
 #Home setup
+
 brew bundle Brewfile_home
+
 brew bundle Caskfile_home
 
 #Work setup
+
 brew bundle Brewfile_work
+
 brew bundle Caskfile_work
 
 
