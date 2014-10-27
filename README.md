@@ -1,5 +1,6 @@
 # webmail716 instructions
 
+## instructions
 Go to homebrew site and install homebrew
 brew install git
 
