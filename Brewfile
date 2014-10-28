@@ -6,6 +6,10 @@ install brew-cask
 
 install git
 
+upgrade brew-cask
+
+cask checklinks
+
 cleanup
 
 # # Install command-line tools using Homebrew
