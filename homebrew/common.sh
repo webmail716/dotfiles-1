@@ -5,6 +5,7 @@ brew upgrade
 
 brew install brew-cask
 brew install git
+brew install rdfind #duplicate file remover
 
 brew upgrade brew-cask
 
