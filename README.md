@@ -7,6 +7,16 @@ brew install git
 
 cd ~
 
+#make ssh key if necessary
+mkdir .ssh
+chmod 700 .ssh
+ssh-keygen -t rsa -b 4096 -C "user@email.com"
+
+cat ~/.ssh/id_rsa.pub | pbcopy
+
+#go to github
+#add key to list of ssh keys in settings
+
 mkdir dev
 
 cd dev
